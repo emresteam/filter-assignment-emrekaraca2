@@ -1,7 +1,7 @@
 //  Given an array of numbers,
 //  return a new array that has only the numbers that are even.
 function onlyEven (array) {
-  // your code here
+  return array.filter(num => num%2 === 0)
 }
 
 // Given an array of people objects,
@@ -21,7 +21,7 @@ function oldEnough (array) {
 // return a new array that only includes those that are only one word.
 // no spaces
 function onlyOneWord (array) {
-  return array.filter(string => string.split(", ").length === 1)
+  return array.filter(string => string.split(" ").length === 1)
 }
 
 // Given an array of arrays,
