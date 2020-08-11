@@ -21,7 +21,7 @@ function oldEnough (array) {
 // return a new array that only includes those that are only one word.
 // no spaces
 function onlyOneWord (array) {
-  return array.filter(string => string.split(", ").length === 1
+  return array.filter(string => string.split(", ").length === 1)
 }
 
 // Given an array of arrays,
